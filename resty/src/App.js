@@ -1,8 +1,8 @@
 import React from 'react';
-import Header from './header';
-import Footer from './footer';
-import Form from './form';
-import './app.scss';
+import Header from './components/header/header';
+import Footer from './components/footer/footer';
+import Form from './components/forms/form';
+import './components/app.scss';
 
 class App extends React.Component {
 
