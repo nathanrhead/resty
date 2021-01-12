@@ -23,7 +23,7 @@
 - As a developer, I want to create a visually appealing site with a header, footer, and a large content area.
 - As a developer, I want to create a form that asks for a URL.
 - As a developer, I want to create buttons that let the user choose from the REST methods of get, post, put, and delete.
-- When the form is filled out and the button is clicked, I want to display the URL and the method chosen. 
+- When the form is filled out and the button is clicked, I want to display the URL and the method chosen.
 
 #### `.env` requirements (where applicable)
 
@@ -34,7 +34,7 @@
 
 #### How to initialize/run your application (where applicable)
 
-<!-- - e.g. `npm start` -->
+`npm start`
 
 #### How to use your library (where applicable)
 
@@ -46,4 +46,4 @@
 
 #### UML
 
-![UML]()
+![UML](./assets/lab26-UML.png)
