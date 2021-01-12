@@ -8,11 +8,11 @@ class App extends React.Component {
 
   render() {
     return (
-      <>
+      <section>
         <Header />
         <Form />
         <Footer />
-      </>
+      </section>
     )
   }
 }

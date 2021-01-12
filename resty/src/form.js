@@ -1,4 +1,5 @@
 import React from 'react'; 
+import './form.scss';
 
 class Form extends React.Component {
   constructor(props) {
@@ -24,16 +25,20 @@ class Form extends React.Component {
     return (
       <>
         <form>
-          <textarea cols="55" rows="2" placeholder="Enter your API's url here and choose your action below." onChange={this.handleInput}/>
-          <input type="submit" value="POST" onClick={this.handleClick}/> 
-          <input type="submit" value="GET" onClick={this.handleClick}/> 
-          <input type="submit" value="PUT" onClick={this.handleClick}/> 
-          <input type="submit" value="DELETE" onClick={this.handleClick}/>
+          <textarea  placeholder="Enter your API's url here and choose your action below." onChange={this.handleInput}/>
+          <div>
+            <input type="submit" value="POST" onClick={this.handleClick}/>
+            <input type="submit" value="GET" onClick={this.handleClick}/> 
+            <input type="submit" value="PUT" onClick={this.handleClick}/> 
+            <input type="submit" value="DELETE" onClick={this.handleClick}/>
+          </div>
         </form>
-        <section>
-          <h2 id="route">Route: {this.state.route}</h2>
-          <h3 id="URL">URL: {this.state.input}</h3>
-        </section>
+        <div id="rendered-input">
+          {/* <h2 id="route">Route: {this.state.route}</h2> */}
+          <p id="URL">URL / ROUTE:
+            <h2> {this.state.input}/{this.state.route}</h2>
+          </p>
+        </div>
       </>
     )
   }

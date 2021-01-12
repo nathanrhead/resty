@@ -1,0 +1,52 @@
+form {
+  width: 100%;
+  
+  textarea {
+    font-size: 24px;
+    background-color: cornflowerblue;
+    width: 100%;
+    // padding-left: .5vw;
+    color: rgba(248, 161, 0, 0.8);
+    font-weight: bolder;
+    border: 2px dotted white;
+  }
+  
+  div {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+    input {
+      width: 10vw;
+      font-size: 2vw;
+      color: rgba(248, 161, 0, 0.8);
+      background-color: cornflowerblue;
+      border-radius: 7px;
+      border: 2px dotted white;
+      font-weight: bolder;
+    }
+  }
+}
+
+
+#rendered-input {
+  margin-top: 3vh;
+  border: 2px dotted white;
+  width: 100%;
+  padding: 1%;
+  color: cornflowerblue;
+  font-weight: bolder;
+
+  p {
+    font-size: 4vh;
+    display: inline;
+  }
+  h2 {
+    color: white;
+    display: inline;
+  }
+}
+
+::placeholder {
+  color: rgba(248, 161, 0, 0.8);
+}
