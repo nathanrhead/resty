@@ -27,6 +27,17 @@ form {
       font-weight: bolder;
       outline: none;
     }
+
+    input:focus {
+      background-color: rgba(248, 161, 0, 0.8);
+      color: white;
+    }
+
+    input:hover {
+      // background-color: rgba(248, 161, 0, 0.8);
+      color:white;
+
+    }
   }
 }
 
